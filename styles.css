@@ -1,0 +1,48 @@
+@keyframes grow {
+  from {
+    font-size: 20px;
+    color: red;
+  }
+
+  to {
+    font-size: 30px;
+    color: green;
+  }
+}
+
+h1 {
+  margin-top: 100px;
+  animation-name: grow;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+body {
+  background-color: #D3F2E9;
+  margin: auto;
+  width: 50%;
+}
+
+#currency {
+  border-color: green;
+  width: 250px;
+  height: 25px;
+  margin: 3px;
+  font-size: 14px;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 7px 19px;
+  margin: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#result {
+  color: green;
+  font-size: 20px;
+  padding-left: 3px;
+}
